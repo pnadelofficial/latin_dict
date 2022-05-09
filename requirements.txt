@@ -1,0 +1,7 @@
+pandas
+streamlit
+beautifulsoup4
+re
+pickle
+stanza
+ast
