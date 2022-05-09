@@ -13,7 +13,7 @@ las_df = pd.read_csv('las_csv.csv').rename(columns={'Unnamed: 0':'lemma','0':'en
 with open('lemmas_nonums.pickle', 'rb') as f:
   verb_lemmas_fromdict = pickle.load(f)
 
-stats = open('UD_Latin-ITTB/stats.xml')
+stats = open('stats.xml')
 stat_xml = BeautifulSoup(stats)
 deprel_list = [] 
 for dep in stat_xml.find_all('deps')[0].find_all('dep'):

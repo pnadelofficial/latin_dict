@@ -3,7 +3,7 @@ import pickle
 import ast
 from stanza.utils.conll import CoNLL
 
-dicts = CoNLL.conll2doc('UD_Latin-ITTB/la_ittb-ud-train.conllu')
+dicts = CoNLL.conll2doc('la_ittb-ud-train.conllu')
 trees = {}
 for id, sent in enumerate(dicts.sentences):
   trees[id] = sent
