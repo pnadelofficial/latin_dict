@@ -1,5 +1,4 @@
 pandas
 streamlit
 beautifulsoup4
-pickle
 stanza
